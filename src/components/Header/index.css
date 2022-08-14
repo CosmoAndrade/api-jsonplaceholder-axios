@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+    background-color: darkslategray;
+    margin-bottom: 15px;
+    height: 60px;
+    
+    
+}
+
+.header a{
+    color: white;
+    text-transform: uppercase;
+}
+
+.header a:hover{
+    background-color: white;
+    color: brown;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+   
+ 
+    
+}
+
+
+.header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
