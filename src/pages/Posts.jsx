@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import api from "../services/api";
+import './Posts.css'
 
 const Posts = () => {
     const [posts, setPosts] = useState([])
@@ -23,10 +24,10 @@ const Posts = () => {
         <div>
             <h1>Posts</h1>
 
-            {posts.map((post) => {
+            {posts.map((post,index) => {
                 return (
-                    <div className='posts'>
-                        <span>{post.id}</span>
+                    <div key={index} className='posts'>
+                        <strong>{post.id}</strong>
                         <h3>{post.title}</h3>
                         <p>{post.body}</p>
                     </div>

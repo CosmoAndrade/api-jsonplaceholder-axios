@@ -1,0 +1,26 @@
+.users{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 250px;
+    background-color: darksalmon;
+    margin-bottom: 10px;
+    margin: 2%;
+    border-radius: 6px;
+}
+
+.users strong {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.users address{
+    font-size: 25px;
+    color: blue;
+}
+.users span{
+    color: forestgreen;
+}
